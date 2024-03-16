@@ -14,7 +14,7 @@ public class FindFemFejl {
         // Reserver det sidste sæde i den sidste række
         int numberOfRows = biogrande.getRows();
         int numberOfSeats = biogrande.getSeats();
-        // Rettede indekserne til at være 0-baseret, hvilket betyder koden ikke fejler ved: ArrayIndexOutOfBoundsException
+        // Rettede indekserne til at være 0, hvilket betyder koden ikke fejler ved: ArrayIndexOutOfBoundsException
         biogrande.reserve(numberOfRows - 1, numberOfSeats - 1);
 
         // Afbestil reservation på række 1, sæde 5
