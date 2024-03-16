@@ -25,7 +25,7 @@ public class Main {
         persons.add(teacher1);
         persons.add(teacher2);
         
-        // Tilføjer kurset "Java 1.0" til alle personer i listen og printer relevante meddelelser
+        // Tilføjer kurset "Java 1.0" til alle personer i listen og printer udsagn
         for (Person person : persons) {
             boolean added = person.addCourse("Java 1.0");
             if (!added) {
