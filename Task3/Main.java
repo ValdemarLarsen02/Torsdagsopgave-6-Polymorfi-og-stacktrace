@@ -12,7 +12,7 @@ public class Main {
         ArrayList<String> teacher1CanTeach = new ArrayList<>(Arrays.asList("Fysik", "Kemi", "Biologi"));
         ArrayList<String> teacher2CanTeach = new ArrayList<>(Arrays.asList("Python", "Java 1.0", "React"));
         
-        // Opretter studerende og undervisere med de relevante kurser
+        // Opretter studerende og undervisere
         Student student1 = new Student("Micke", student1PassedCourses);
         Student student2 = new Student("Valdemar", student2PassedCourses);
         Teacher teacher1 = new Teacher("Lise", teacher1CanTeach);
